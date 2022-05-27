@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #920225;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -29,6 +33,7 @@ body {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: -0.045em;
+  color: var(--primary-color);
 }
 
 .intro h2 {
@@ -38,6 +43,7 @@ body {
   font-size: 18px;
   line-height: 27px;
   text-transform: uppercase;
+  color: var(--primary-color);
 }
 
 .intro p {
@@ -55,6 +61,25 @@ body {
   display: grid;
   grid-template-columns: repeat(3, auto);
   gap: 54px;
+}
+
+.img-container {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.team-title {
+  display: inline-block;
+}
+
+.team-title h4 {
+  writing-mode: vertical-rl;
+  margin-left: 2px;
+  font-family: 'PT Serif', serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
 }
 
 .team {
@@ -80,4 +105,18 @@ body {
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
+  color: var(--primary-color);
+}
+
+.footer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
 }
