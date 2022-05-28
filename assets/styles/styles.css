@@ -119,14 +119,8 @@ body {
   color: var(--primary-color);
 }
 
-.footer {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-}
-
 .footer p {
+  text-align: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
