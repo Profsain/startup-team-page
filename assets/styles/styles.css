@@ -73,6 +73,7 @@ body {
 
 .team-title {
   display: inline-block;
+  margin-top: -68px;
 }
 
 .team-title h4 {
